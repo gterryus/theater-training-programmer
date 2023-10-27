@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- META DEFINITION -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#1F1D2B" />
+        <meta name="msapplication-navbutton-color" content="#1F1D2B" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#1F1D2B" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Training intermediate programmer" />
+        <meta name="keywords" content="Neuron, training, programmer" />
+        <!-- END META DEFINITION -->
+
+        <title>CINEMA NEU</title>
+
+        <!-- BOOTSTRAP STYLE -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- END BOOTSTRAP STYLE -->
+
+        <!-- WEB ICON -->
+        <link rel="icon" href="assets/images/logo/favicon.ico" />
+        <link rel="shortcut icon" href="assets/images/logo/favicon.ico" type="image/x-icon" />
+        <!-- END WEB ICON -->
+
+        <!-- UNICONS -->
+        <link rel="stylesheet" href="https://api.iconify.design/basil.css?icons=location-outline">
+        <link rel="stylesheet" href="https://api.iconify.design/solar.css?icons=list-bold">
+        <!-- END UNICONS -->
+
+        <!-- Custom style -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <!-- End Custom style -->
+    </head>
+    <body>
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <!-- CUSTOM LAYOUT -->
+                <div class="main-layout d-flex g-0">
+                    <!-- SIDEBAR -->
+                    <div class="sidebar">
+                        <div class="col">
+
+                            <!-- LOGO -->
+                            <div class="logo-container">
+                                <img src="./assets/images/logo/x-logo.png" class="logo" alt="Cinema Neuron" />
+                            </div>
+                            <!-- END LOGO -->
+
+                            <div class="form-group mb-4 px-3">
+                                <input class="form-control" type="text" value="Search for movies" />
+                            </div>
+
+                            <div class="navigation">
+                                <!-- LIST THEATER -->
+                                <ul class="list-group list-group-flush list-group-menu">
+                                    <li class="list-group-item group-item-header"><span class="icon--basil icon--basil--location-outline"></span> Choose theaters</li>
+                                    <li class="list-group-item" aria-current="true">
+                                        <a href="#">Braga C-NEU</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">BTC C-NEU</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Festival Citylink C-NEU</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">JATOS C-NEU</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">TSM C-NEU</a>
+                                    </li>
+                                </ul>
+                                <!-- END LIST THEATER -->
+
+                                <!-- LIST MENU -->
+                                <ul class="list-group list-group-flush list-group-menu">
+                                    <li class="list-group-item group-item-header"><span class="icon--solar icon--solar--list-bold"></span> Other Navigation</li>
+                                    <li class="list-group-item">
+                                        <a href="#">Info C-NEU</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Promotion</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Term of use</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Advertising</a>
+                                    </li>
+                                </ul>
+                                <!-- END LIST MENU -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SIDEBAR -->
+        
+                    <!-- MAIN -->
+                    <div class="main-content row gx-1">
+                        <div class="container">
+                            <div class="col-12">
+
+                                <div class="container">
+                                    <!-- PAGE HEADER -->
+                                    <div class="page-header text-center">
+                                        <h1 class="text-primary mb-3"><strong>Now Showing on Braga C-Neu</strong></h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- END PAGE HEADER -->
+    
+                                    <!-- CAROUSEL -->
+                                    <div id="carouselHighlightMovies" class="carousel slide mx-auto" data-bs-ride="carousel">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselHighlightMovies" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselHighlightMovies" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselHighlightMovies" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169753011477005_925x527.jpg" class="d-block w-100" alt="CINEMA MOVIES SLIDES">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/16982179212418_925x527.jpg" class="d-block w-100" alt="CINEMA MOVIES SLIDES">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169821784122743_925x527.jpg" class="d-block w-100" alt="CINEMA MOVIES SLIDES">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHighlightMovies" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselHighlightMovies" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <!-- END CAROUSEL -->
+                                </div>
+
+
+                                <!-- MOVIE LIST -->
+                                <div class="container movie-container pt-0 pb-5">
+                                    <!-- PAGE HEADER -->
+                                    <div class="page-header pb-4">
+                                        <h1 class="text-primary mb-3"><strong>Browse by category</strong></h1>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- END PAGE HEADER -->
+
+                                    <!-- CATEGORY FILTER -->
+                                    <div class="flex flex-row pb-5">
+                                        <button class="btn btn-secondary">All category</button>
+                                        <button class="btn btn-outline-dark">Action</button>
+                                        <button class="btn btn-outline-dark">Adventure</button>
+                                        <button class="btn btn-outline-dark">Fantasy</button>
+                                        <button class="btn btn-outline-dark">Romance</button>
+                                    </div>
+                                    <!-- END CATEGORY FILTER -->
+
+                                    <!-- MOVIE -->
+                                    <div class="row">
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="./detail.html" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169416151382710_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Petualangan Sherina</h5>
+                                                    <span class="badge bg-primary">R12+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169347438354037_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Freelance</h5>
+                                                    <span class="badge bg-secondary">R17+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/16971783026192_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Wakaf</h5>
+                                                    <span class="badge bg-secondary">R17+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169640256316846_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Five nights and freddy</h5>
+                                                    <span class="badge bg-secondary">R17+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/16952093955719_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Killer of the flower moon</h5>
+                                                    <span class="badge bg-secondary">R17+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169623303958823_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Mohon doa restu</h5>
+                                                    <span class="badge bg-secondary">R17+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169527278765500_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Pamali dusun pocong</h5>
+                                                    <span class="badge bg-secondary">R17+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169448869271427_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Saranjana Kota Ghaib</h5>
+                                                    <span class="badge bg-danger">R21+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169417034165149_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Indigo</h5>
+                                                    <span class="badge bg-danger">R21+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-3 mb-4">
+                                            <a href="#" class="card card-movie">
+                                                <img src="https://media.21cineplex.com/webcontent/gallery/pictures/169382771567221_290x426.jpg" class="card-img-top" alt="Movie">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">The creator</h5>
+                                                    <span class="badge bg-secondary">R17+</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-4 col-lg-12 mb-5">
+                                            <p class="text-center pt-4 pb-3">All movies shown</p>
+                                        </div>
+                                    </div>
+                                    <!-- MOVIE -->
+
+                                </div>
+                                <!-- END MOVIE LIST -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END MAIN -->
+                </div>
+                <!-- CUSTOM LAYOUT -->
+            </div>
+        </div>
+
+
+        <!-- BOOTSTRAP JS + POPPER -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <!-- END BOOTSTRAP JS + POPPER -->
+
+    </body>
+</html>
